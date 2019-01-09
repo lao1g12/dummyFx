@@ -30,7 +30,6 @@ public class FxService {
 	}
 
 	private void processOrder(TreeMap<Integer, Order> currentOrderMap, TreeMap<Integer, Order> oppositeOrderMap, Order order) {
-//		if(checkStock(order.getAmount(), oppositeOrderMap)){
 		if(oppositeOrderMap.size() > 0){
 			findMatchingOrder(order, oppositeOrderMap, currentOrderMap);
 		}else{

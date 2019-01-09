@@ -1,0 +1,10 @@
+---
+spring:
+  application:
+    name: dummyFx
+
+server:
+  port: 8080
+
+exchange-rate:
+  gbpUsd: 1.2100
